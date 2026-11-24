@@ -56,3 +56,12 @@ if impl (ghc >= 9.14)
     , serialise:base
     , serialise:containers
     , serialise:time
+
+source-repository-package
+  type: git
+  location: git@github.com:IntersectMBO/ouroboros-network
+  tag: ffe793edb264acc0c9076548da808e67a4b125a2
+  --sha256: sha256-78Nh4vAMM1aTtjvNYB2jcTd8DINJ6m9Qrv8LL1txMuI=
+  subdir: network-mux
+          ouroboros-network
+          cardano-diffusion
